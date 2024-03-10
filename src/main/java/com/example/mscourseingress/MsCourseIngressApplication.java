@@ -1,0 +1,14 @@
+package com.example.mscourseingress;
+
+import jdk.jfr.Enabled;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@EnableFeignClients
+@SpringBootApplication
+public class MsCourseIngressApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(MsCourseIngressApplication.class, args);
+    }
+}
